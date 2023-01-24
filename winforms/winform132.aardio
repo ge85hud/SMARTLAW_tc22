@@ -1,0 +1,18 @@
+import win.ui;
+/*DSG{{*/
+var winform = win.form(text="aardio form";right=759;bottom=469)
+winform.add(
+button={cls="button";text="nächste";left=615;top=388;right=693;bottom=427;z=6};
+picturebox={cls="picturebox";left=0;top=4;right=757;bottom=468;image=$"\bei.jpg";z=1};
+static={cls="static";text="If you are still in danger, try to contact the police immediately!";left=112;top=39;right=781;bottom=91;color=255;font=LOGFONT(h=-18;name='Times New Roman';weight=700);notify=1;transparent=1;z=2};
+static2={cls="static";text="Die folgenden Nummern werden für Sie nützlich sein";left=111;top=91;right=573;bottom=134;font=LOGFONT(h=-16);transparent=1;z=3};
+static3={cls="static";text="Rufen Sie in allen folgenden Fällen 911 an
+Feuer/Gift/Raub
+und alle Arten von Verbrechen ";left=115;top=168;right=558;bottom=344;font=LOGFONT(h=-16);notify=1;transparent=1;z=4};
+static6={cls="static";text="Wenn Sie jetzt in Sicherheit sind, geben wir Ihnen Hilfe und Ratschläge,
+ damit Sie die Straftat dann melden können";left=118;top=298;right=752;bottom=396;font=LOGFONT(h=-16);notify=1;transparent=1;z=5}
+)
+/*}}*/
+
+winform.show();
+win.loopMessage();

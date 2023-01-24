@@ -1,0 +1,25 @@
+import win.ui;
+/*DSG{{*/
+var winform = win.form(text="aardio form";right=759;bottom=469)
+winform.add(
+["2l1"]={cls="static";text="Beantworten Sie gerne die folgenden Fragen. Es werden keine Daten aufgezeichnet.";left=37;top=32;right=774;bottom=84;font=LOGFONT(h=-14;italic=255;weight=700);notify=1;transparent=1;z=2};
+["2l2"]={cls="static";text="1.Welche Art von Verbrechen triffst du?";left=27;top=94;right=274;bottom=134;font=LOGFONT(h=-14;name='Times New Roman');notify=1;transparent=1;z=3};
+["2l3"]={cls="static";text="2.Sprechen Sie die Sprache des Rechts?";left=25;top=140;right=286;bottom=160;font=LOGFONT(h=-14;name='Times New Roman');transparent=1;z=5};
+["2l4"]={cls="static";text="3Sind Sie einer .Bedrohung begegnet?";left=26;top=181;right=287;bottom=199;font=LOGFONT(h=-14;name='Times New Roman');transparent=1;z=7};
+["2l5"]={cls="static";text="4. Ist der Verbrecher jemand
+ den Sie vorher kennen?";left=26;top=218;right=280;bottom=261;font=LOGFONT(h=-14;name='Times New Roman');transparent=1;z=8};
+["2picturebox1"]={cls="picturebox";left=-1;top=3;right=755;bottom=468;image=$"\bei.jpg";z=1};
+button={cls="button";text="下一步";left=597;top=403;right=689;bottom=435;z=12};
+combobox={cls="combobox";left=313;top=134;right=590;bottom=154;edge=1;items={"Ja";"Nein"};mode="dropdown";z=13};
+combobox0={cls="combobox";left=312;top=93;right=587;bottom=113;edge=1;font=LOGFONT(italic=255;h=-14;name='Times New Roman');items={"Raub";"Diebstahl";"häusliche Gewalt";"Körperverletzung"};mode="dropdown";z=4};
+combobox1={cls="combobox";left=313;top=174;right=592;bottom=194;edge=1;items={"Ja";"Nein"};mode="dropdown";z=6};
+combobox2={cls="combobox";left=312;top=222;right=592;bottom=242;edge=1;items={"Ja";"Nein"};mode="dropdown";z=14};
+combobox3={cls="combobox";left=311;top=268;right=594;bottom=288;edge=1;items={"Ja";"Nein"};mode="dropdown";z=15};
+combobox5={cls="combobox";left=308;top=316;right=596;bottom=336;edge=1;items={"Kriminelle können gefasst werden";"Verlust wird nachgeholt";"Der Gerechtigkeit kann Genüge getan werden";"Dasselbe Verbrechen wird dir nie wieder passieren"};mode="dropdown";z=11};
+static={cls="static";text="5.Haben Sie die Polizei gerufen?";left=27;top=277;right=288;bottom=297;font=LOGFONT(h=-14;name='Times New Roman');transparent=1;z=9};
+static2={cls="static";text="6.Worauf hast du am meisten gewartet?";left=28;top=314;right=289;bottom=334;font=LOGFONT(h=-14;name='Times New Roman');transparent=1;z=10}
+)
+/*}}*/
+
+winform.show();
+win.loopMessage();

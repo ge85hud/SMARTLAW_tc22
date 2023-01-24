@@ -1,0 +1,17 @@
+import win.ui;
+/*DSG{{*/
+var winform = win.form(text="aardio form";right=759;bottom=469)
+winform.add(
+button={cls="button";text="next";left=644;top=402;right=728;bottom=442;z=8};
+picturebox={cls="picturebox";left=2;top=-1;right=759;bottom=469;image=$"\bei.jpg";z=1};
+picturebox2={cls="picturebox";left=569;top=2;right=759;bottom=93;image=$"\图片1.jpg";z=7};
+static={cls="static";text="We feel so sorry about what you met.";left=57;top=30;right=409;bottom=90;font=LOGFONT(h=-18);transparent=1;z=2};
+static2={cls="static";text="But that is never your fault and you will never be alone.";left=57;top=76;right=537;bottom=136;font=LOGFONT(h=-18);transparent=1;z=3};
+static3={cls="static";text="If you feel alone and helpless please contact the police,they will  be always with you.";left=55;top=120;right=741;bottom=214;font=LOGFONT(h=-18);transparent=1;z=4};
+static5={cls="static";text="So never take reporting crime as a  useless work.Your report will help yourself.";left=56;top=299;right=742;bottom=393;font=LOGFONT(h=-18);transparent=1;z=5};
+static9={cls="static";text="And remember, the sooner you report, the more likely the criminal will be caught";left=52;top=344;right=738;bottom=438;font=LOGFONT(h=-18);transparent=1;z=6}
+)
+/*}}*/
+
+winform.show();
+win.loopMessage();

@@ -1,0 +1,29 @@
+import win.ui;
+/*DSG{{*/
+var winform = win.form(text="aardio form";right=759;bottom=469)
+winform.add(
+button={cls="button";text="Next";left=640;top=426;right=709;bottom=456;z=15};
+picturebox={cls="picturebox";left=-1;top=4;right=759;bottom=470;image=$"\bei.jpg";z=1};
+picturebox2={cls="picturebox";left=596;top=2;right=759;bottom=84;image=$"\图片1.jpg";z=16};
+static={cls="static";text="When you meet a crime, our Suggestion:";left=46;top=30;right=508;bottom=83;font=LOGFONT(h=-16;weight=700);transparent=1;z=2};
+static10={cls="static";text="Who can help you?";left=45;top=211;right=227;bottom=261;font=LOGFONT(h=-16);transparent=1;z=8};
+static11={cls="static";text="Many non-governmental survivor support organisations are also available.These services are 
+free and are offered in strict confidence at the Charite clinic Psychotherapeutic Department ";left=80;top=229;right=1083;bottom=305;font=LOGFONT(h=-16);transparent=1;z=9};
+static12={cls="static";text="Evidence is very important!";left=79;top=339;right=282;bottom=361;color=255;font=LOGFONT(h=-16);transparent=1;z=13};
+static13={cls="static";text="You can also take a trusted person for support to this meeting.";left=80;top=385;right=783;bottom=415;font=LOGFONT(h=-16);transparent=1;z=14};
+static2={cls="static";text="Report a crime";left=48;top=66;right=230;bottom=116;font=LOGFONT(h=-16);transparent=1;z=3};
+static3={cls="static";text="In a case of an immediate emergency, please always report to the police by calling 110. 
+You can also report a crime in person at a police station or in writing.";left=80;top=89;right=723;bottom=165;font=LOGFONT(h=-16);transparent=1;z=4};
+static4={cls="static";text="You can also report online by online police presence,It's a high efficient way nowadays";left=79;top=135;right=704;bottom=171;font=LOGFONT(h=-16);transparent=1;z=5};
+static5={cls="static";text="For gay, lesbian, transsexual, bisexual, queer, or intersexual victims,
+specially trained professionals are available with the local Police ";left=80;top=161;right=678;bottom=217;font=LOGFONT(h=-16);transparent=1;z=6};
+static6={cls="static";left=45;top=256;right=227;bottom=306;font=LOGFONT(h=-16);transparent=1;z=7};
+static7={cls="static";text="For children and young adults, there is support at the Charite clinic Psychotherapeutic Department";left=80;top=274;right=910;bottom=318;font=LOGFONT(h=-16);transparent=1;z=10};
+static8={cls="static";text="The police are investigating, what are your rights and how does it go on further?";left=46;top=316;right=626;bottom=366;font=LOGFONT(h=-16);transparent=1;z=11};
+static9={cls="static";text="                                                  You can prepare for this by collecting all documented
+evidence and documentation as well as medical documents to take with you. ";left=78;top=338;right=721;bottom=414;font=LOGFONT(h=-16);transparent=1;z=12}
+)
+/*}}*/
+
+winform.show();
+win.loopMessage();

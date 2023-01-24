@@ -1,0 +1,29 @@
+import win.ui;
+/*DSG{{*/
+var winform = win.form(text="aardio form";right=759;bottom=469)
+winform.add(
+button={cls="button";text="nächste";left=624;top=397;right=693;bottom=436;z=6};
+picturebox={cls="picturebox";left=0;top=3;right=757;bottom=467;image=$"\bei.jpg";z=1};
+static={cls="static";text="Wenn Sie dennoch in Gefahr sind, versuchen Sie sofort die Polizei zu erreichen";left=128;top=32;right=797;bottom=84;font=LOGFONT(h=-18;name='Times New Roman';weight=700);notify=1;transparent=1;z=2};
+static2={cls="static";text="Die folgenden Nummern werden für Sie nützlich sein";left=129;top=92;right=563;bottom=125;font=LOGFONT(h=-16);transparent=1;z=3};
+static3={cls="static";text="Rufen Sie 112 an bei:
+Feuer/Rauch/Sprengstoff
+Schwere Unfälle";left=128;top=148;right=554;bottom=306;font=LOGFONT(h=-14);transparent=1;z=4};
+static5={cls="static";text="Rufen Sie 110 an bei:
+Versuchter Diebstahl
+Schaden";left=129;top=227;right=555;bottom=321;font=LOGFONT(h=-14);transparent=1;z=7};
+static6={cls="static";text="Wenn Sie jetzt in Sicherheit sind, geben wir Ihnen Hilfe
+und Ratschläge, damit Sie die Straftat dann melden können";left=127;top=325;right=636;bottom=380;font=LOGFONT(h=-16);notify=1;transparent=1;z=5}
+)
+/*}}*/
+
+winform.static.oncommand = function(id,event){
+	
+}
+
+winform.static6.oncommand = function(id,event){
+	
+}
+
+winform.show();
+win.loopMessage();

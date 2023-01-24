@@ -1,0 +1,23 @@
+import win.ui;
+/*DSG{{*/
+var winform = win.form(text="aardio form";right=759;bottom=469)
+winform.add(
+button={cls="button";text="next";left=644;top=402;right=728;bottom=442;z=9};
+picturebox={cls="picturebox";left=1;top=0;right=758;bottom=470;image=$"\bei.jpg";z=1};
+picturebox3={cls="picturebox";left=515;top=5;right=742;bottom=125;image=$"E:\law\l\Not-Your-Fault.jpg";z=10};
+static={cls="static";text="We feel so sorry about what you met.";left=51;top=37;right=403;bottom=97;font=LOGFONT(h=-18);transparent=1;z=2};
+static13={cls="static";text="Then we will provide useful information to help you report crime more conveniently";left=47;top=299;right=733;bottom=393;font=LOGFONT(h=-18);transparent=1;z=8};
+static2={cls="static";text="But that is never your fault and you will never be alone.";left=52;top=85;right=532;bottom=145;font=LOGFONT(h=-18);transparent=1;z=3};
+static3={cls="static";text="If you feel alone and helpless please contact the police,they will  be always with you.";left=50;top=127;right=736;bottom=221;font=LOGFONT(h=-18);transparent=1;z=4};
+static4={cls="static";text="42 percent of robbery will be solved,on average 28 percent of losses are recovered";left=52;top=171;right=738;bottom=265;font=LOGFONT(h=-18);transparent=1;z=5};
+static5={cls="static";text="So never take reporting crime as a  useless work.Your report will help yourself.";left=50;top=213;right=736;bottom=307;font=LOGFONT(h=-18);transparent=1;z=6};
+static9={cls="static";text="And remember, the sooner you report, the more likely the criminal will be caught";left=48;top=258;right=734;bottom=352;font=LOGFONT(h=-18);notify=1;transparent=1;z=7}
+)
+/*}}*/
+
+winform.static9.oncommand = function(id,event){
+	
+}
+
+winform.show();
+win.loopMessage();

@@ -1,0 +1,80 @@
+import win.ui;
+/*DSG{{*/
+var winform = win.form(text="aardio form";right=759;bottom=469)
+winform.add(
+bk={cls="bk";left=4;top=3;right=757;bottom=468;background="\bei.jpg";z=1};
+button2={cls="button";text="China";left=420;top=347;right=554;bottom=377;font=LOGFONT(h=-14;name='Times New Roman';weight=700);z=7};
+button3={cls="button";text="Germany";left=261;top=347;right=395;bottom=377;font=LOGFONT(h=-14;name='Times New Roman';weight=700);z=9};
+button4={cls="button";text="USA";left=577;top=347;right=711;bottom=377;font=LOGFONT(h=-14;name='Times New Roman';weight=700);z=10};
+combobox={cls="combobox";left=262;top=195;right=448;bottom=221;edge=1;items={"English";"Deutsch";"中文"};mode="dropdown";z=4};
+picturebox={cls="picturebox";left=419;top=269;right=551;bottom=334;image=$"\111.jpg";z=6};
+picturebox2={cls="picturebox";left=104;top=29;right=313;bottom=159;image=$"\smart.jpg";notify=1;z=3};
+picturebox3={cls="picturebox";left=259;top=271;right=395;bottom=335;image=$"\ger.jpg";z=8};
+picturebox4={cls="picturebox";left=578;top=267;right=715;bottom=334;image=$"\US.jpg";z=11};
+static={cls="static";text="Select Language";left=79;top=193;right=243;bottom=265;font=LOGFONT(italic=255;h=-22;name='Times New Roman';weight=700);notify=1;transparent=1;z=2};
+static2={cls="static";text="Select the country ";left=70;top=290;right=292;bottom=325;font=LOGFONT(italic=255;h=-22;name='Times New Roman';weight=700);notify=1;transparent=1;z=5}
+)
+/*}}*/
+
+var winform3=win.form(text="aardio form";right=759;bottom=469)
+var winform2=win.form(text="aardio form";right=759;bottom=469)
+
+winform2.add(
+button={cls="button";text="next";left=608;top=392;right=684;bottom=429;z=7};
+["3l1"]={cls="static";text="If you are still in danger, try to reach the police immediately! ";left=132;top=48;right=635;bottom=95;font=LOGFONT(h=-18;name='Times New Roman';weight=700);transparent=1;z=2};
+["3l2"]={cls="static";text="The following numbers will be useful for you";left=130;top=96;right=619;bottom=287;font=LOGFONT(h=-18;name='Times New Roman');notify=1;transparent=1;z=3};
+["3l3"]={cls="static";text="Call 112 in case of:
+Fire / smoke / explosives
+Serious accidents";left=136;top=142;right=625;bottom=333;font=LOGFONT(h=-18;name='Times New Roman');notify=1;transparent=1;z=4};
+["3l4"]={cls="static";text="Call 110 in case of:
+Attempted theft / damage
+Assault / risk to life";left=134;top=238;right=623;bottom=329;font=LOGFONT(h=-18;name='Times New Roman');notify=1;transparent=1;z=5};
+["3l5"]={cls="static";text="If you are safe now, we will help you to report the crime then";left=129;top=337;right=607;bottom=393;font=LOGFONT(h=-18;name='Times New Roman');transparent=1;z=6};
+picturebox={cls="picturebox";left=3;top=5;right=758;bottom=469;font=LOGFONT(h=-18;name='Times New Roman';weight=700);image=$"E:\law\l\bei.jpg";z=1}
+)
+winform3.add(
+combobox1={cls="combobox";left=312;top=92;right=515;bottom=112;edge=1;font=LOGFONT(italic=255;h=-14;name='Times New Roman');items={"Robbery";"Theft";"Domestic abuse";"Sexual assulted";"Assault and battery"};mode="dropdown";z=4};
+combobox2={cls="combobox";left=312;top=138;right=518;bottom=158;edge=1;items={"Yes";"No"};mode="dropdown";z=6};
+combobox3={cls="combobox";left=311;top=178;right=518;bottom=198;edge=1;items={"Yes";"No"};mode="dropdown";z=8};
+combobox4={cls="combobox";left=310;top=219;right=518;bottom=239;edge=1;items={"Yes";"No"};mode="dropdown";z=10};
+combobox5={cls="combobox";left=309;top=271;right=518;bottom=291;edge=1;items={"Yes";"No"};mode="dropdown";z=12};
+combobox6={cls="combobox";left=309;top=315;right=519;bottom=335;edge=1;items={"Criminal can be caught";"Lost can be recovered";"Justice  can be served";"The same crime will never happen on you"};mode="dropdown";z=14};
+["2l1"]={cls="static";text="Feel free to answer the following questions. No data will be recorded.";left=34;top=26;right=502;bottom=78;font=LOGFONT(h=-14;italic=255;weight=700);notify=1;transparent=1;z=2};
+["2l2"]={cls="static";text="1.What kind of crime are you meeting?";left=27;top=94;right=274;bottom=134;font=LOGFONT(italic=255;h=-14;name='Times New Roman');notify=1;transparent=1;z=3};
+["2l3"]={cls="static";text="2. Can you speak the language by law?";left=25;top=140;right=286;bottom=160;font=LOGFONT(h=-14;name='Times New Roman');transparent=1;z=5};
+["2l4"]={cls="static";text="3.Did you meet any threaten？";left=26;top=181;right=287;bottom=201;font=LOGFONT(h=-14;name='Times New Roman');transparent=1;z=7};
+["2l5"]={cls="static";text="4. Is the criminal someone you know before
+(your friend or family member）?";left=26;top=218;right=287;bottom=261;font=LOGFONT(h=-14;name='Times New Roman');transparent=1;z=9};
+["2picturebox1"]={cls="picturebox";left=1;top=5;right=757;bottom=470;image=$"\bei.jpg";z=1};
+button={cls="button";text="Next";left=598;top=402;right=690;bottom=434;z=15};
+static={cls="static";text="5.did you call the police?";left=27;top=277;right=288;bottom=297;font=LOGFONT(h=-14;name='Times New Roman');transparent=1;z=11};
+static2={cls="static";text="6.What did you most expect for?";left=28;top=314;right=289;bottom=334;font=LOGFONT(h=-14;name='Times New Roman');transparent=1;z=13}
+)
+var lang="English";
+winform.combobox.oncommand = function(id,event){
+        lang = winform.combobox.selText
+        
+  
+}
+winform.button2.oncommand = function(id,event){
+	winform.close()
+	if(lang == "English")
+	{
+	winform2.show()
+	}
+}
+
+winform.button3.oncommand = function(id,event){
+	winform.close()
+	if(lang == "English")
+	{
+	winform2.show()
+	}
+}
+winform2.button.oncommand = function(id,event){
+	winform2.close()
+	winform3.show()
+}
+
+winform.show();
+win.loopMessage();
